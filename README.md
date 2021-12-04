@@ -19,9 +19,11 @@ Additionally multiple R-squared value is 0.7149, or 71.49% of the of the variabl
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ![myimage-alt-tag](./Resources/Deliverable2Pic1.png) 
+
 The variance of suspension coils is 62.29 (or less than 100) PSI. As the variance is lower than 100 PSI it clearly meets the design specifications for the MechaCar suspension coils. 
 
 ![myimage-alt-tag](./Resources/Deliverable2Pic2.png) 
+
 The variance of suspension coils for lot 1 is 0.97, lot 2 is 7.46 and lot 2 is 170.286. Clearly Lot 1 and Lot 2 have variance significantly lower than design specification. However Lot 2 variance is 70% more than targeted design specification. 
 
 ## T-Tests on Suspension Coils
@@ -32,13 +34,16 @@ The variance of suspension coils for lot 1 is 0.97, lot 2 is 7.46 and lot 2 is 1
 The t-test is performed to detemine if PSI across all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch. The p-value of 0.06028 is greater than predetermined significance of 0.05. Hence there is no evidence to reject the null hypothesis. In other words, PSI of all manufacturing lots are not statistically different than the population mean of 1,500 pounds per square inch. 
 
 ![myimage-alt-tag](./Resources/Deliverable3Pic2.png) 
+
 The t-test is performed to detemine if manufacturing **lot 1** PSI is statistically different from the population mean of 1,500 pounds per square inch. The p-value of 1 is greater than predetermined significance of 0.05. Hence there is no evidence to reject the null hypothesis. In other words, PSI of manufacturing lot1 is not statistically different than the population mean of 1,500 pounds per square inch. 
 
 ![myimage-alt-tag](./Resources/Deliverable3Pic3.png) 
+
 The t-test is performed to detemine if manufacturing **lot 2** PSI is statistically different from the population mean of 1,500 pounds per square inch. The p-value of 0.6072 is greater than predetermined significance of 0.05. Hence there is no evidence to reject the null hypothesis. In other words, PSI of manufacturing lot2 is not statistically different than the population mean of 1,500 pounds per square inch. 
 
 
 ![myimage-alt-tag](./Resources/Deliverable3Pic4.png) 
+
 The t-test is performed to detemine if manufacturing **lot 3** PSI is statistically different from the population mean of 1,500 pounds per square inch. The p-value of 0.04168 is less than predetermined significance of 0.05. Hence there is evidence to reject the null hypothesis. In other words, PSI of manufacturing lot3 is not statistically different than the population mean of 1,500 pounds per square inch. 
 
 ## Study Design: MechaCar vs Competition
