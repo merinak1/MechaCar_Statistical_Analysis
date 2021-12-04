@@ -55,7 +55,7 @@ Write a short description of a statistical study that can quantify how the Mecha
 
 In order to compare and quantify the MechaCar performance against the competition, we can collect data on mecha car's cost, fuel efficiency , maintenance cost  and safety ratings against the 4 different comptetitor vehicle data.
 
-The 2 sample T-test will needed to be used because we assume the sample size for both Mecha car and comptetitor vehicle data will be large and we are testing against numerical data type. It is recommended to perform follwing T-tests.
+The 2 sample T-test will needed to be used because we assume the sample size for both Mecha car and comptetitor vehicle data will be large and we are testing against numerical data type. It is recommended to perform following T-tests.
 
 1. 2 sample T-test can be performed against Mecha car cost against each competitor vehicle cost to determine following Null Hypothesis. .
 Null Hypothesis: Mecha car cost is statistically different from the competitor vehicle cost 
